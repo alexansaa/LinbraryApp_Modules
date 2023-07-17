@@ -1,4 +1,4 @@
-import {Bookshelf} from './modules/bookShelf.js'
+import { Bookshelf } from './modules/bookShelf.js';
 import { RenderJsonObjects } from './modules/renderBooks.js';
 import { timeUpdate } from './modules/timeUpdate.js';
 import { InitializeNavigation } from './modules/navigation.js';
@@ -19,6 +19,3 @@ addBtn.addEventListener('click', () => {
   Bookshelf.addNewBook(name, author);
   RenderJsonObjects(Bookshelf.shelf);
 });
-
-
-

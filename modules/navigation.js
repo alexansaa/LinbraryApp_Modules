@@ -35,7 +35,7 @@ function GoToSection(e) {
   }
 }
 
-export function InitializeNavigation() {
+export default function InitializeNavigation() {
   links.forEach((section) => {
     section.addEventListener('click', GoToSection);
   });
