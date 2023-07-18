@@ -1,7 +1,7 @@
-import { Bookshelf } from './modules/bookShelf.js';
-import { RenderJsonObjects } from './modules/renderBooks.js';
-import { timeUpdate } from './modules/timeUpdate.js';
-import { InitializeNavigation } from './modules/navigation.js';
+import Bookshelf from './modules/bookShelf.js';
+import RenderJsonObjects from './modules/renderBooks.js';
+import timeUpdate from './modules/timeUpdate.js';
+import InitializeNavigation from './modules/navigation.js';
 
 const addBtn = document.getElementById('add-btn');
 
