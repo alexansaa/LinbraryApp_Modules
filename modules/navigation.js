@@ -9,7 +9,7 @@ const links = document.querySelectorAll('#myLinks a');
 add.classList.add('hidden');
 contact.classList.add('hidden');
 
-export default function InitializeNavigation() {
+export default () => {
   links.forEach((section) => {
     section.addEventListener('click', (e) => {
       // Name of the section to show

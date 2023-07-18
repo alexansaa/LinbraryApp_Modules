@@ -2,7 +2,7 @@ import Bookshelf from './bookShelf.js';
 
 const bookCtr = document.getElementById('book-ctr');
 
-export default function RenderJsonObjects(JsonObjectsArray) {
+export default (JsonObjectsArray) => {
   bookCtr.innerHTML = '';
   JsonObjectsArray.forEach((book) => {
     const bookElement = document.createElement('div');
