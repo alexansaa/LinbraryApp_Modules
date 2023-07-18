@@ -1,7 +1,7 @@
 // Sections
-const list = document.querySelector('#List');
-const add = document.querySelector('#New');
-const contact = document.querySelector('#Contact');
+  const list = document.querySelector('#List');
+  const add = document.querySelector('#New');
+  const contact = document.querySelector('#Contact');
 
 // Navigation links array
 const links = document.querySelectorAll('#myLinks a');
