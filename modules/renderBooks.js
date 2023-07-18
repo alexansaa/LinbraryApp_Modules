@@ -10,8 +10,8 @@ export default function RenderJsonObjects(JsonObjectsArray) {
     bookElement.innerHTML = `<p>"${book.name}" by ${book.author}</p>
                         <button>Remove</button>`;
     bookElement.querySelector('button').addEventListener('click', () => {
-    Bookshelf.removeBook(book.name);
-    bookElement.remove();
+      Bookshelf.removeBook(book.name);
+      bookElement.remove();
     });
     bookCtr.appendChild(bookElement);
   });

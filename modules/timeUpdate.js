@@ -1,7 +1,6 @@
 /* global luxon */
 
 const DateTime = luxon.DateTime;
-// import { DateTime } from "luxon";
 
 const timeElemnt = document.querySelector('#myTime');
 

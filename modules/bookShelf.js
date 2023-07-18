@@ -1,6 +1,6 @@
 export default class Bookshelf {
   static shelf = [];
-  
+
   static someBooks = [
     {
       name: 'Don Quijote de la Mancha',
