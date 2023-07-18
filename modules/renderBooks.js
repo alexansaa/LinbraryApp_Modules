@@ -15,4 +15,4 @@ export default (JsonObjectsArray) => {
     });
     bookCtr.appendChild(bookElement);
   });
-}
+};
