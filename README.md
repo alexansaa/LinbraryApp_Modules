@@ -58,7 +58,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://alexansaa.github.io/LinbraryApp_Modules/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +139,7 @@ Deploy this project on any websever.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/alexansaa/LinbraryApp_Modules/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
