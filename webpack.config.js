@@ -4,7 +4,7 @@ module.exports = {
   entry: './index.js', // Entry point of your application
   output: {
     filename: 'bundle.js', // Output filename
-    path: __dirname + '/', // Output directory
+    path: `${__dirname}/`, // Output directory
   },
   module: {
     rules: [
